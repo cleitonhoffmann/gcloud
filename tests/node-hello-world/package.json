@@ -1,0 +1,22 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleitonhoffmann/gcloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleitonhoffmann/gcloud/issues"
+  },
+  "homepage": "https://github.com/cleitonhoffmann/gcloud#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
