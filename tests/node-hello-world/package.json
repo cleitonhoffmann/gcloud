@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cleitonhoffmann/gcloud#readme",
   "dependencies": {
+    "config": "^1.26.1",
     "express": "^4.15.3"
   }
 }

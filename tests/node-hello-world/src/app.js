@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const config = require('./config.environment');
+const config = require('config');
 
 const app = express();
 
@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(config.appPort, () => {
-    console.log(`${config.appName} listening on port: ${config.appPort}.`);
+    console.log(`${config.get('appName')} listening on port: ${config.get('appPort')}`);
 });
